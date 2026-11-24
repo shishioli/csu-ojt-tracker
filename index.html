@@ -23,7 +23,7 @@
 <script>
 const REQUIRED=350, KEY="csuOjtTrackerDemoV2";
 const companies=[{id:"NVM-001",name:"North Valley Medical Center",type:"Healthcare Institution",period:"January – March 2026",status:"Completed",hours:120,code:"CSUOJT|2022-00123|NVM-001"},{id:"CVT-002",name:"Cagayan Valley Tech Solutions",type:"Technology Company",period:"April – June 2026",status:"Active",hours:90,code:"CSUOJT|2022-00123|CVT-002"}];
-const seed=[{date:"2026-06-18",company:companies[1].name,in:"08:00 AM",out:"05:00 PM",hours:8},{date:"2026-06-17",company:companies[1].name,in:"08:05 AM",out:"05:00 PM",hours:8},{date:"2026-06-16",company:companies[1].name,in:"08:00 AM",out:"05:00 PM",hours:8}];
+const seed=[{date:"2026-06-18",company:companies[1].name,in:"08:00 AM",out:"05:00 PM",hours:8,seed:true},{date:"2026-06-17",company:companies[1].name,in:"08:05 AM",out:"05:00 PM",hours:8,seed:true},{date:"2026-06-16",company:companies[1].name,in:"08:00 AM",out:"05:00 PM",hours:8,seed:true}];
 let state=JSON.parse(localStorage.getItem(KEY)||"null")||{history:seed,session:null,logged:false};
 let scanner=null,currentQr=null;
 const $=id=>document.getElementById(id);
