@@ -22,7 +22,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script><script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
 <script>
 const REQUIRED=350, BASELINE_HOURS=280, KEY="csuOjtTrackerDemoV3";
-const companies=[{id:"PNP-RO2",name:"PNP REGIONAL OFFICE 2",type:"Government Office",period:"September – October",status:"Completed",hours:0,code:"CSUOJT|22-20872|PNP-RO2"},{id:"SM-TUG",name:"SM CITY TUGUEGARAO",type:"Retail / Commercial Establishment",period:"October – Present",status:"Active",hours:0,code:"CSUOJT|22-20872|SM-TUG"}];
+const companies=[{id:"PNP-RO2",name:"PNP REGIONAL OFFICE 2",type:"Government Office",period:"September – October",status:"Completed",hours:80,code:"CSUOJT|22-20872|PNP-RO2"},{id:"SM-TUG",name:"SM CITY TUGUEGARAO",type:"Retail / Commercial Establishment",period:"October – Present",status:"Active",hours:200,code:"CSUOJT|22-20872|SM-TUG"}];
 const seed=[];
 let state=JSON.parse(localStorage.getItem(KEY)||"null")||{history:seed,session:null,logged:false};
 let scanner=null,currentQr=null;
