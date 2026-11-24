@@ -3,7 +3,7 @@
 Student-facing internship monitoring website prototype for Cagayan State University.
 
 ## Demo access
-- Student ID: `2022-00123`
+- Student ID: `22-20872`
 - Password: `student123`
 
 ## Features
